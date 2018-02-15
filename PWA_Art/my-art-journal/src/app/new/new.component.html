@@ -1,0 +1,36 @@
+<form ngModel >
+    <div>
+        <input id='sketch_name' placeholder='Sketch Name' ngModel name='sketch_name'> 
+    </div>
+    <div>
+       <label >Image
+            <input type='text' id='image_w' placeholder='Image Width' ngModel name='image_w'>
+            <input type='text' id='image_h' placeholder='Image Height' ngModel name='image_h'>
+            <div>
+                <select id='type' ngModel name='type'>
+                    <option>Select Type</option>
+                    <option value='portrait' >Portrait</option>
+                    <option value='landscape'>Landscape</option>
+                    <option value='still'>Still life</option>
+                </select>
+            </div>
+            
+       </label>
+
+    </div>
+    <div>
+       <label>Canvas
+            <input type='text' id='canvas_w' placeholder='Canvas Width' ngModel name='canvas_w'>
+            <input type='text' id='canvas_h' placeholder='Canvas Height' ngModel name='canvas_h'> 
+       </label>
+    </div>
+    
+
+
+<!--
+    <div>
+        <input id=''>        
+    </div>
+-->
+    <button type='submit'>Submit</button>
+</form>

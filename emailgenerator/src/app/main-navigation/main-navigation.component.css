@@ -1,0 +1,17 @@
+
+li {
+    height: 70px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+
+.list-group-item {
+    left: 10px;
+    border: 1px solid lightgrey;
+    left: 15px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius:  5px;
+/*    width: 50px;*/
+    
+}

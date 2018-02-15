@@ -1,0 +1,25 @@
+
+.col-xs-3,
+.col-xs-9,
+.col-md-1 {
+    padding: 0;
+    height: 800px;
+    width: 60px;
+}
+
+
+#header1 {
+    background-color: #3287EA;
+}
+ 
+#header2 {
+    background-color: #62A9FA;
+    border-right: 0px;
+}
+
+h1, h4 {
+    color: #ffffff;
+}
+
+
+
